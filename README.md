@@ -33,7 +33,7 @@ Train and test classifiers on extracted feature representations on the original 
   [Train config](configs/config_model_train_latent.json)  
   [Test config](configs/config_model_test_latent.json)
 
-#### All-scanner Classifier
+#### All-scanner Classifier (as PAD* task-specific feature extractor)
 Train models on concatenated multi-scanner data on the original tumor task.  
 - [`domain _discrimination_PADstar/PADstar_training.py`](domain _discrimination_PADstar/PADstar_training.py)  
   [Documentation](docs/PADstar_training.md)  
