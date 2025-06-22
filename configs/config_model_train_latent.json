@@ -1,0 +1,9 @@
+{
+    "lrs": [0.0001, 0.0001, 0.0001],
+    "epochs": [12],
+    "models": ["TwoLayerNN"],
+    "scanners": ["cs2", "nz20", "nz210", "p1000", "gt450"],
+    "arraypath": "data/extracted_features_dinov2",
+    "modelsavepath": "models/models_latent_dinov2_balanced",
+    "results_file": "results/results_latent.txt"
+}

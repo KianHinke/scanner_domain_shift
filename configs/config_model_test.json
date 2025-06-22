@@ -1,0 +1,6 @@
+{
+    "models_folder_path": "models/",
+    "annotation_file": "data/scc.json",
+    "data_folder": "data/dataprep",
+    "results_file": "results/results.txt"
+}

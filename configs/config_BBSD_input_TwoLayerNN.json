@@ -1,0 +1,16 @@
+{
+    "modelpaths": { 
+        "cs2": "sc_domain_shift/models/cs2_TwoLayerNN_epoch_12_lr_0.0001_512.pth",
+        "nz20": "sc_domain_shift/models/nz20_TwoLayerNN_epoch_12_lr_0.0001_512.pth",
+        "nz210": "sc_domain_shift/models/nz210_TwoLayerNN_epoch_12_lr_0.0001_512.pth",
+        "p1000": "sc_domain_shift/models/p1000_TwoLayerNN_epoch_12_lr_0.0001_512.pth",
+        "gt450": "sc_domain_shift/models/gt450_TwoLayerNN_epoch_12_lr_0.0001_512.pth"
+                    
+    },
+    
+    "scanners": ["cs2", "nz20", "nz210", "p1000", "gt450"],
+    "savepath": "KS_heatmap_figures_TwoLayerNN",
+    "dataprep_folder": "data/dataprep",
+    "annotation_file": "data/scc.json",
+    "n_bootstraps": 100
+}

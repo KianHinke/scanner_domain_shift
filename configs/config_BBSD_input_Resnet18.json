@@ -1,0 +1,18 @@
+{
+    "modelpaths": { 
+        "cs2": "sc_domain_shift/inputspace/cs2_ResNet18_epoch_8_lr_0.0001.pth",
+        "nz20": "sc_domain_shift/inputspace/nz20_ResNet18_epoch_8_lr_0.0001.pth",
+        "nz210": "sc_domain_shift/inputspace/nz210_ResNet18_epoch_8_lr_0.0001.pth",
+        "p1000": "sc_domain_shift/inputspace/p1000_ResNet18_epoch_8_lr_0.0001.pth",
+        "gt450": "sc_domain_shift/inputspace/gt450_ResNet18_epoch_8_lr_0.0001.pth"
+                    
+    },
+    
+    "scanners":  ["cs2", "nz20", "nz210", "p1000", "gt450"],
+    "savepath": "KS_heatmap_figures_Resnet18",
+    "dataprep_folder": "data/dataprep",
+    "annotation_file": "data/scc.json",
+    "n_bootstraps": 100
+
+    
+}

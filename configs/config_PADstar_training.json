@@ -1,0 +1,9 @@
+{
+    "models": ["ResNet18"],
+    "scanners": ["cs2", "nz20", "nz210", "p1000", "gt450"],
+    "dataprep_folder": "data/dataprep",
+    "annotation_file": "data/scc.json",
+    "lrs": [0.0001],
+    "epochs": [8],
+    "modelsavepath": "sc_domain_shift/allscanner_models"
+}

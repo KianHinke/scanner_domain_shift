@@ -1,0 +1,17 @@
+{
+    "modelpaths": { 
+        "cs2": "sc_domain_shift/models_latent_dinov2/cs2_TwoLayerNN_epoch_12_lr_0.0001_512.pth",
+        "nz20": "sc_domain_shift/models_latent_dinov2/nz20_TwoLayerNN_epoch_12_lr_0.0001_512.pth",
+        "nz210": "sc_domain_shift/models_latent_dinov2/nz210_TwoLayerNN_epoch_12_lr_0.0001_512.pth",
+        "p1000": "sc_domain_shift/models_latent_dinov2/p1000_TwoLayerNN_epoch_12_lr_0.0001_512.pth",
+        "gt450": "sc_domain_shift/models_latent_dinov2/gt450_TwoLayerNN_epoch_12_lr_0.0001_512.pth"
+                    
+    },
+    "savepath": "MMD_heatmap_figures_latent_dinov2",
+    "arraypath": "data/extracted_features_dinov2",
+    "scanners":  ["cs2", "nz20", "nz210", "p1000", "gt450"],
+    "MMD_perms": 1000
+    
+
+    
+}

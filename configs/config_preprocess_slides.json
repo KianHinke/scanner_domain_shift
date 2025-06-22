@@ -1,0 +1,6 @@
+{
+    "annotation_file": "data/scc.json",
+    "splitconfig_path": "data/scc_dataset.csv",
+    "dataprep_folder" : "data/dataprep",
+    "images_path" : "datasets/extracted/"
+}

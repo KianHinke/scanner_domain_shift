@@ -1,0 +1,7 @@
+{
+    "savepath": "data/extracted_features_dinov2_2",
+    "scanners": [ "cs2","nz20", "nz210", "p1000", "gt450"],
+    "model": "Dinov2",
+    "dataprep_folder": "data/dataprep",
+    "annotation_file": "data/scc.json"
+}

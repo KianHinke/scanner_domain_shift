@@ -1,0 +1,5 @@
+{
+    "models_folder_path": "models/models_latent_dinov2_balanced",
+    "arraypath": "data/extracted_features_dinov2",
+    "results_file": "results/results_latent_test.txt"
+}

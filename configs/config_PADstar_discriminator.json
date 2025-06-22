@@ -1,0 +1,9 @@
+{
+    "annotation_file": "data/scc.json",
+    "dataprep_folder": "data/dataprep",
+    "modelpath": "sc_domain_shift/allscanner_models/PAD_ResNet18_epoch_8_lr_0.0001.pth",
+    "modelsavepath": "sc_domain_shift/PADdiscriminators",
+    "save_loaders_path": "data/concatenated_loaders_PAD_ResNet18_finetuned",
+    "input_size": 512,
+    "modelname": "ResNet18"
+}

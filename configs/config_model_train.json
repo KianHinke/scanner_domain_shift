@@ -1,0 +1,11 @@
+{
+    "lrs": [ 0.0001, 0.00001, 0.000001],
+    "epochs": [8],
+    "models": ["ResNet18"],
+    "scanners": ["cs2","nz20", "nz210", "p1000", "gt450"],
+    "annotation_file": "data/scc.json",
+    "data_folder": "data/dataprep",
+    "modelsavepath": "models/",
+    "results_file": "results/results.txt"
+    
+}

@@ -1,0 +1,5 @@
+{
+    "models_folder": "sc_domain_shift/PADstar_models_resnet",
+    "datapath": "sc_domain_shift/concatenated_loaders_PAD_resnet",
+    "input_size": 512
+}
